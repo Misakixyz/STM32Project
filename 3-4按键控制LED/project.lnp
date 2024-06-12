@@ -27,6 +27,7 @@
 ".\stm32f10x_wwdg.o"
 ".\delay.o"
 ".\led.o"
+".\key.o"
 ".\main.o"
 ".\stm32f10x_it.o"
 --strict --scatter ".\project.sct"
