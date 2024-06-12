@@ -16,10 +16,11 @@
         {
             "name": "Target 1",
             "includePath": [
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\2-1STM32-Sing\\Start",
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\2-1STM32-Sing\\User",
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\2-1STM32-Sing\\Library",
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\2-1STM32-Sing\\System",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-4按键控制LED\\Start",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-4按键控制LED\\User",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-4按键控制LED\\Library",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-4按键控制LED\\System",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-4按键控制LED\\Hardware",
                 "C:\\Keil_v5\\ARM\\ARMCC\\include",
                 "C:\\Keil_v5\\ARM\\ARMCC\\include\\rw",
                 "${default}",
