@@ -16,11 +16,11 @@
         {
             "name": "Target 1",
             "includePath": [
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-4按键控制LED\\Start",
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-4按键控制LED\\User",
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-4按键控制LED\\Library",
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-4按键控制LED\\System",
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-4按键控制LED\\Hardware",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-5光敏传感器控制蜂鸣器\\Start",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-5光敏传感器控制蜂鸣器\\User",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-5光敏传感器控制蜂鸣器\\Library",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-5光敏传感器控制蜂鸣器\\System",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-5光敏传感器控制蜂鸣器\\Hardware",
                 "C:\\Keil_v5\\ARM\\ARMCC\\include",
                 "C:\\Keil_v5\\ARM\\ARMCC\\include\\rw",
                 "${default}",
