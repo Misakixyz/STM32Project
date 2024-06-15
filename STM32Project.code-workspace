@@ -7,7 +7,8 @@
 	"settings": {
 		"files.associations": {
 			"delay.h": "c",
-			"buzzer.h": "c"
+			"buzzer.h": "c",
+			"stm32f10x.h": "c"
 		}
 	}
 }
