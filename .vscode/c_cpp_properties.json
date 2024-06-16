@@ -16,10 +16,11 @@
         {
             "name": "Target 1",
             "includePath": [
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\2-1STM32-Sing\\Start",
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\2-1STM32-Sing\\User",
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\2-1STM32-Sing\\Library",
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\2-1STM32-Sing\\System",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-5光敏传感器控制蜂鸣器\\Start",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-5光敏传感器控制蜂鸣器\\User",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-5光敏传感器控制蜂鸣器\\Library",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-5光敏传感器控制蜂鸣器\\System",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-5光敏传感器控制蜂鸣器\\Hardware",
                 "C:\\Keil_v5\\ARM\\ARMCC\\include",
                 "C:\\Keil_v5\\ARM\\ARMCC\\include\\rw",
                 "${default}",
