@@ -16,11 +16,11 @@
         {
             "name": "Target 1",
             "includePath": [
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-5光敏传感器控制蜂鸣器\\Start",
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-5光敏传感器控制蜂鸣器\\User",
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-5光敏传感器控制蜂鸣器\\Library",
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-5光敏传感器控制蜂鸣器\\System",
-                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\3-5光敏传感器控制蜂鸣器\\Hardware",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\5-2旋转编码器计次\\Start",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\5-2旋转编码器计次\\User",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\5-2旋转编码器计次\\Library",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\5-2旋转编码器计次\\System",
+                "c:\\Users\\Misak\\CodeCenter\\STM32Project\\5-2旋转编码器计次\\Hardware",
                 "C:\\Keil_v5\\ARM\\ARMCC\\include",
                 "C:\\Keil_v5\\ARM\\ARMCC\\include\\rw",
                 "${default}",
