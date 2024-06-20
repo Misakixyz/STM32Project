@@ -1,9 +1,14 @@
 STM32入门教程资料
 STM32入门教程资料.rar
+<<<<<<< HEAD
 
 .vscode/keil-assistant.log
 .vscode
 
+=======
+keil-assistant.log
+.vscode/keil-assistant.log
+>>>>>>> 2444c2c34dd4d42137d3d10ce594c30d5edfa9de
 *.o
 *.d
 *.crf
