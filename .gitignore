@@ -12,3 +12,4 @@ keil-assistant.log
 *.o
 *.d
 *.crf
+.vscode/
