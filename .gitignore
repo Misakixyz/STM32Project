@@ -14,3 +14,6 @@ keil-assistant.log
 *.crf
 .vscode/
 ./../.vscode
+
+
+.vscode/c_cpp_properties.json
