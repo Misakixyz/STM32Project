@@ -4,10 +4,6 @@ STM32入门教程资料.rar
 .vscode/keil-assistant.log
 .vscode
 
-=======
-keil-assistant.log
-.vscode/keil-assistant.log
->>>>>>> 2444c2c34dd4d42137d3d10ce594c30d5edfa9de
 *.o
 *.d
 *.crf
@@ -15,4 +11,6 @@ keil-assistant.log
 ./../.vscode
 
 
+
+.vscode/keil-assistant.log
 .vscode/c_cpp_properties.json
