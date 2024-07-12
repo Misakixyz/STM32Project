@@ -5,7 +5,7 @@
 
 uint16_t NUM;
 int main(void)
-{ 
+{
 	OLED_Init();
 	Timer_Init();
 
