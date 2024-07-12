@@ -8,7 +8,8 @@
 		"files.associations": {
 			"delay.h": "c",
 			"buzzer.h": "c",
-			"stm32f10x.h": "c"
+			"stm32f10x.h": "c",
+			"timer.h": "c"
 		}
 	}
 }
