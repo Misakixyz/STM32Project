@@ -2,13 +2,17 @@
 
 void PWM_Init(void) {
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);
-
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
-	
+
+	// 重映射
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE);
+    GPIO_PinRemapConfig(GPIO_PartialRemap1_TIM2, ENABLE);
+    GPIO_PinRemapConfig(GPIO_Remap_SWJ_JTAGDisable, ENABLE);
+
 	GPIO_InitTypeDef GPIO_InitStructure;
  	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_15;
  	GPIO_Init(GPIOA, &GPIO_InitStructure);
 
     TIM_InternalClockConfig(TIM2);
@@ -26,9 +30,13 @@ void PWM_Init(void) {
     TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_PWM1;
     TIM_OCInitStructure.TIM_OCPolarity = TIM_OCPolarity_High;
     TIM_OCInitStructure.TIM_OutputState = TIM_OutputState_Enable;
-    TIM_OCInitStructure.TIM_Pulse = 50;   //CRR
+    TIM_OCInitStructure.TIM_Pulse = 90;   //CRR
     TIM_OC1Init(TIM2, &TIM_OCInitStructure);
     
     TIM_Cmd(TIM2, ENABLE);
 
+}
+
+void PWM_SetCompare1(uint16_t Compare) {
+    TIM_SetCompare1(TIM2, Compare);
 }
