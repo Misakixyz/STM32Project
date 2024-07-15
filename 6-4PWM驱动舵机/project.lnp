@@ -28,6 +28,8 @@
 ".\timer.o"
 ".\delay.o"
 ".\pwm.o"
+".\key.o"
+".\servo.o"
 ".\oled.o"
 ".\main.o"
 ".\stm32f10x_it.o"
