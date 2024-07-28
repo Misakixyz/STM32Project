@@ -20,8 +20,8 @@ void PWM_Init(void) {
     TIM_TimeBaseInitTypeDef TIM_TimeBaseInitStructure;
     TIM_TimeBaseInitStructure.TIM_ClockDivision = TIM_CKD_DIV1;
     TIM_TimeBaseInitStructure.TIM_CounterMode = TIM_CounterMode_Up;
-    TIM_TimeBaseInitStructure.TIM_Period = 100 - 1;   //ARR
-    TIM_TimeBaseInitStructure.TIM_Prescaler = 720 - 1; //PSC
+    TIM_TimeBaseInitStructure.TIM_Period = 20000 - 1;   //ARR
+    TIM_TimeBaseInitStructure.TIM_Prescaler = 72 - 1; //PSC
     TIM_TimeBaseInitStructure.TIM_RepetitionCounter = 0;
     TIM_TimeBaseInit(TIM2, &TIM_TimeBaseInitStructure);
 
@@ -38,6 +38,6 @@ void PWM_Init(void) {
 
 }
 
-void PWM_SetCompare2(uint16_t Compare) {
-    TIM_SetCompare2(TIM2, Compare);
+void PWM_SetCompare3(uint16_t Compare) {
+    TIM_SetCompare3(TIM2, Compare);
 }

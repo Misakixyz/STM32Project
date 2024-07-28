@@ -5,7 +5,7 @@
 <h2>Tool Versions:</h2>
 IDE-Version: μVision V5.24.2.0
 Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: 1 Misaki, 1, LIC=GMZI6-DLM8T-X7TRZ-JJR4Z-SI4FL-4L5C8
+License Information: ak dk, fk, LIC=03C6R-KYKFL-GKKBG-V8INU-RC7L3-4JJMK
  
 Tool Versions:
 Toolchain:       MDK-ARM Plus  Version: 5.24.1
@@ -21,28 +21,28 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
 Dialog DLL:      TCM.DLL V1.32.0.0
  
 <h2>Project:</h2>
-c:\Users\Misaki\CodeCenter\STM32Project\6-4PWM驱动舵机\project.uvprojx
-Project File Date:  07/15/2024
+c:\Users\Misak\CodeCenter\STM32Project\6-4PWM驱动舵机\project.uvprojx
+Project File Date:  07/16/2024
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Target 1'
-compiling Key.c...
-Hardware\Key.c(1): warning:  #14-D: extra text after expected end of preprocessing directive
-  #include "stm32f10x.h"'
-Hardware\Key.c(37): warning:  #1-D: last line of file ends without a newline
-  }
-Hardware\Key.c: 2 warnings, 0 errors
+compiling main.c...
+.\Hardware\Servo.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Hardware\Key.h(5): warning:  #1-D: last line of file ends without a newline
+  #endif
+User\main.c(16): warning:  #223-D: function "Servo_Init" declared implicitly
+  	Servo_Init();
+User\main.c(19): warning:  #223-D: function "Servo_SetAngle" declared implicitly
+  	Servo_SetAngle(90);
+User\main.c: 4 warnings, 0 errors
 compiling Servo.c...
-Hardware\Servo.c(4): warning:  #223-D: function "PWM_Init" declared implicitly
-      PWM_Init();
-Hardware\Servo.c(8): warning:  #223-D: function "PWM_SetCompare2" declared implicitly
-      PWM_SetCompare2( Angle /100 * 2000 + 500 );
-Hardware\Servo.c(9): warning:  #1-D: last line of file ends without a newline
-  }
-Hardware\Servo.c: 3 warnings, 0 errors
+Hardware\PWM.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+Hardware\Servo.c: 1 warning, 0 errors
 linking...
-Program Size: Code=4542 RO-data=1790 RW-data=12 ZI-data=1636  
+Program Size: Code=5044 RO-data=1788 RW-data=8 ZI-data=1632  
 ".\project.axf" - 0 Error(s), 5 Warning(s).
 
 <h2>Software Packages used:</h2>
@@ -57,7 +57,7 @@ Package Vendor: Keil
   C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:02
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>

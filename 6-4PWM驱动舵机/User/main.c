@@ -2,13 +2,12 @@
 #include "Delay.h"
 #include "OLED.h"
 // #include "Timer.h"
-#include "PWM.h"
+// #include "PWM.h"
 #include "Servo.h"
 #include "Key.h"
 
 uint16_t NUM;
-
-float Angle;
+uint16_t Angle = 0;
 uint8_t KeyNum;
 
 int main(void)
@@ -17,7 +16,10 @@ int main(void)
 	Servo_Init();
 	Key_Init();
 
+	Servo_SetAngle(90);
+
 	OLED_ShowString(1, 1, "Angle:");
+
 
 
 	while (1)
@@ -29,7 +31,8 @@ int main(void)
 				Angle = 0;
 			}
 		}
-		Servo_SetAngle(50);
+		Servo_SetAngle(Angle);
 		OLED_ShowNum(1, 7, Angle, 3);
 	}
 }
+ 
