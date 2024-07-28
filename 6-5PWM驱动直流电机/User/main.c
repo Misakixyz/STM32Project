@@ -13,7 +13,7 @@ int main(void)
 	Motor_Init();
 	Key_Init();
 
-	Motor_SetSpeed(50);
+	// Motor_SetSpeed(50);
 
 	OLED_ShowString(1, 1, "Speed:");
 
